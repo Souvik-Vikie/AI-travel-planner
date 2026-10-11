@@ -2,13 +2,13 @@
   "summary": {
     "requests": 20,
     "plans_completed": "80%",
-    "within_budget": "94%",
+    "within_budget": "88%",
     "replanning_triggered": "100%",
-    "avg_replans_when_triggered": 1.75,
+    "avg_replans_when_triggered": 2,
     "sold_out_recovered": 3,
-    "flex_dates_used": "75%",
-    "avg_flight_savings_vs_first_found": "29.0%",
-    "avg_total_savings_vs_first_found": "34.4%",
+    "flex_dates_used": "69%",
+    "avg_flight_savings_vs_first_found": "30.8%",
+    "avg_total_savings_vs_first_found": "35.6%",
     "avg_seconds_per_plan": 0.05,
     "llm": "rule-based"
   },
@@ -44,12 +44,12 @@
       "destination": "Sri Lanka",
       "total": 57050.0,
       "within_budget": true,
-      "replans": 1,
+      "replans": 3,
       "sold_out_recoveries": 0,
       "savings_pct": 0.3021090632718982,
       "flight_savings_pct": 0.3050433839479393,
       "date_shifted": true,
-      "seconds": 0.05
+      "seconds": 0.06
     },
     {
       "id": 3,
@@ -60,13 +60,13 @@
       "travellers": 3,
       "budget": 250000,
       "status": "done",
-      "destination": "Hampi",
-      "total": 39850.0,
+      "destination": "Udaipur",
+      "total": 77850.0,
       "within_budget": true,
       "replans": 1,
       "sold_out_recoveries": 0,
-      "savings_pct": 0.5931062614725678,
-      "flight_savings_pct": 0.3751861042183623,
+      "savings_pct": 0.5875765529308836,
+      "flight_savings_pct": 0.4795154969718561,
       "date_shifted": true,
       "seconds": 0.05
     },
@@ -106,7 +106,7 @@
       "savings_pct": 0.6156744536548606,
       "flight_savings_pct": 0.31461100569259964,
       "date_shifted": false,
-      "seconds": 0.05
+      "seconds": 0.04
     },
     {
       "id": 6,
@@ -136,13 +136,13 @@
       "travellers": 3,
       "budget": 120000,
       "status": "done",
-      "destination": "Sri Lanka",
-      "total": 74040.0,
+      "destination": "Kathmandu & Pokhara",
+      "total": 68050.0,
       "within_budget": true,
       "replans": 1,
       "sold_out_recoveries": 0,
-      "savings_pct": 0.37572325495506587,
-      "flight_savings_pct": 0.339732759944709,
+      "savings_pct": 0.400616522811344,
+      "flight_savings_pct": 0.3996891777338231,
       "date_shifted": true,
       "seconds": 0.04
     },
@@ -182,7 +182,7 @@
       "savings_pct": 0.2992815446789403,
       "flight_savings_pct": 0.2709137709137709,
       "date_shifted": true,
-      "seconds": 0.05
+      "seconds": 0.07
     },
     {
       "id": 10,
@@ -201,7 +201,7 @@
       "savings_pct": 0.48874755381604695,
       "flight_savings_pct": 0.5103642412351788,
       "date_shifted": true,
-      "seconds": 0.05
+      "seconds": 0.04
     },
     {
       "id": 11,
@@ -220,7 +220,7 @@
       "savings_pct": 0.5197784810126582,
       "flight_savings_pct": 0.2376425855513308,
       "date_shifted": true,
-      "seconds": 0.08
+      "seconds": 0.07
     },
     {
       "id": 12,
@@ -239,7 +239,7 @@
       "savings_pct": 0.508633796698523,
       "flight_savings_pct": 0.5298520013454423,
       "date_shifted": true,
-      "seconds": 0.07
+      "seconds": 0.06
     },
     {
       "id": 13,
@@ -277,7 +277,7 @@
       "savings_pct": 0.2942608695652174,
       "flight_savings_pct": 0.33450323974082075,
       "date_shifted": false,
-      "seconds": 0.05
+      "seconds": 0.07
     },
     {
       "id": 15,
@@ -345,15 +345,15 @@
       "travellers": 2,
       "budget": 60000,
       "status": "done",
-      "destination": "Shillong & Cherrapunji",
-      "total": 53550.0,
-      "within_budget": true,
-      "replans": 1,
-      "sold_out_recoveries": 1,
-      "savings_pct": 0.1509433962264151,
-      "flight_savings_pct": 0.1710334788937409,
-      "date_shifted": true,
-      "seconds": 0.06
+      "destination": "Pondicherry",
+      "total": 61490.0,
+      "within_budget": false,
+      "replans": 4,
+      "sold_out_recoveries": 2,
+      "savings_pct": 0.2927038626609442,
+      "flight_savings_pct": 0.19877565718401152,
+      "date_shifted": false,
+      "seconds": 0.09
     },
     {
       "id": 19,
@@ -364,15 +364,15 @@
       "travellers": 3,
       "budget": 160000,
       "status": "done",
-      "destination": "Varanasi",
-      "total": 63090.0,
+      "destination": "Rishikesh",
+      "total": 61050.0,
       "within_budget": true,
       "replans": 1,
-      "sold_out_recoveries": 1,
-      "savings_pct": 0.1743753322700691,
-      "flight_savings_pct": 0.0,
+      "sold_out_recoveries": 0,
+      "savings_pct": 0.2010023268301414,
+      "flight_savings_pct": 0.08906777460399896,
       "date_shifted": false,
-      "seconds": 0.06
+      "seconds": 0.05
     },
     {
       "id": 20,

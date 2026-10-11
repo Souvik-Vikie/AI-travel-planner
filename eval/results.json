@@ -7,8 +7,8 @@
     "avg_replans_when_triggered": 2.38,
     "sold_out_recovered": 1,
     "flex_dates_used": "81%",
-    "avg_flight_savings_vs_first_found": "32.8%",
-    "avg_total_savings_vs_first_found": "30.0%",
+    "avg_flight_savings_vs_first_found": "33.9%",
+    "avg_total_savings_vs_first_found": "29.6%",
     "avg_seconds_per_plan": 0.04,
     "llm": "rule-based"
   },
@@ -49,7 +49,7 @@
       "savings_pct": 0.35840936477879154,
       "flight_savings_pct": 0.409545644018341,
       "date_shifted": true,
-      "seconds": 0.05
+      "seconds": 0.03
     },
     {
       "id": 3,
@@ -60,13 +60,13 @@
       "travellers": 3,
       "budget": 250000,
       "status": "done",
-      "destination": "Hampi",
-      "total": 45140.0,
+      "destination": "Udaipur",
+      "total": 98930.0,
       "within_budget": true,
       "replans": 0,
       "sold_out_recoveries": 0,
-      "savings_pct": 0.4903120538445849,
-      "flight_savings_pct": 0.3751861042183623,
+      "savings_pct": 0.41189851268591426,
+      "flight_savings_pct": 0.4795154969718561,
       "date_shifted": true,
       "seconds": 0.04
     },
@@ -87,7 +87,7 @@
       "savings_pct": null,
       "flight_savings_pct": null,
       "date_shifted": false,
-      "seconds": 0.02
+      "seconds": 0.03
     },
     {
       "id": 5,
@@ -136,15 +136,15 @@
       "travellers": 3,
       "budget": 120000,
       "status": "done",
-      "destination": "Sri Lanka",
-      "total": 80590.0,
+      "destination": "Kathmandu & Pokhara",
+      "total": 74900.0,
       "within_budget": true,
       "replans": 0,
       "sold_out_recoveries": 0,
-      "savings_pct": 0.2989043456850917,
-      "flight_savings_pct": 0.339732759944709,
+      "savings_pct": 0.32022194821208383,
+      "flight_savings_pct": 0.3996891777338231,
       "date_shifted": true,
-      "seconds": 0.03
+      "seconds": 0.04
     },
     {
       "id": 8,
@@ -163,7 +163,7 @@
       "savings_pct": null,
       "flight_savings_pct": null,
       "date_shifted": false,
-      "seconds": 0.02
+      "seconds": 0.03
     },
     {
       "id": 9,
@@ -182,7 +182,7 @@
       "savings_pct": 0.16894761680037754,
       "flight_savings_pct": 0.26036363636363635,
       "date_shifted": true,
-      "seconds": 0.05
+      "seconds": 0.04
     },
     {
       "id": 10,
@@ -220,7 +220,7 @@
       "savings_pct": 0.39794303797468356,
       "flight_savings_pct": 0.2376425855513308,
       "date_shifted": true,
-      "seconds": 0.06
+      "seconds": 0.07
     },
     {
       "id": 12,
@@ -277,7 +277,7 @@
       "savings_pct": 0.4289010067114094,
       "flight_savings_pct": 0.5236072945291032,
       "date_shifted": true,
-      "seconds": 0.03
+      "seconds": 0.04
     },
     {
       "id": 15,
@@ -296,7 +296,7 @@
       "savings_pct": null,
       "flight_savings_pct": null,
       "date_shifted": false,
-      "seconds": 0.02
+      "seconds": 0.03
     },
     {
       "id": 16,
@@ -372,7 +372,7 @@
       "savings_pct": 0.340863717558054,
       "flight_savings_pct": 0.35124670899798666,
       "date_shifted": true,
-      "seconds": 0.03
+      "seconds": 0.06
     },
     {
       "id": 20,

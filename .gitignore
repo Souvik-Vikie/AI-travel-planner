@@ -7,3 +7,4 @@ output/*.pdf
 .pytest_cache/
 eval/pdfs/
 node_modules/
+PROJECT_NOTES.md
