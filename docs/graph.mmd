@@ -1,0 +1,43 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	intake(intake)
+	research(research)
+	pick_destination(pick_destination)
+	search_flights(search_flights)
+	search_hotels(search_hotels)
+	price_trip(price_trip)
+	budget_critic(budget_critic)
+	replan(replan)
+	itinerary(itinerary)
+	approval(approval)
+	book(book)
+	make_pdf(make_pdf)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> intake;
+	approval -. &nbsp;end&nbsp; .-> __end__;
+	approval -.-> book;
+	approval -.-> replan;
+	book -. &nbsp;pdf&nbsp; .-> make_pdf;
+	book -.-> pick_destination;
+	book -.-> price_trip;
+	budget_critic -.-> itinerary;
+	budget_critic -.-> replan;
+	intake --> research;
+	itinerary --> approval;
+	pick_destination -. &nbsp;end&nbsp; .-> __end__;
+	pick_destination -. &nbsp;search&nbsp; .-> search_flights;
+	price_trip --> budget_critic;
+	replan -.-> pick_destination;
+	replan -.-> price_trip;
+	research --> pick_destination;
+	search_flights --> search_hotels;
+	search_hotels --> price_trip;
+	make_pdf --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
